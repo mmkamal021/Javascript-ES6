@@ -6,7 +6,7 @@
 // PENDING, REJECTED, FULFILLED
 
 const value = 2
-const promise = new Promise((resilve, reject) => {
+const promise = new Promise((resolve, reject) => {
   const random = Math.floor(Math.random() * 3)
   console.log(random)
   if (random === value) {
